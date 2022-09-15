@@ -31,5 +31,7 @@ p = plot(compute_costs, times);
 xlabel('Computational cost (number of iterations)');
 ylabel('Wall-clock time took to calculate (seconds)');
 
+% save the plot to svg file
+saveas(gcf, 'problem2', 'svg');
 
 

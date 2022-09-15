@@ -25,6 +25,9 @@ yyaxis right;
 semilogx(N_tot, err_pi_est);
 ylabel('Error of estimation');
 
+% save the plot to svg file
+saveas(gcf, 'problem1', 'svg');
+
 
 
 
