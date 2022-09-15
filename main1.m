@@ -6,6 +6,7 @@ pi_est = zeros(size(k));
 for i = 1:size(N_tot, 2)
     pi_est(i) = compute_for(N_tot(i));
 end
+disp(pi_est)
 
 % b) plotting pi_est vs. N_total and error |pi_est - pi] vs. N_total 
 err_pi_est = abs(pi_est - pi);
@@ -24,7 +25,6 @@ yyaxis right;
 semilogx(N_tot, err_pi_est);
 ylabel('Error of estimation');
 
-% c) 
 
 
 
