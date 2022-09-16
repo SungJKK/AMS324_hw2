@@ -14,7 +14,7 @@ Repository for homework 2, AMS 325
 
 - `compute_while.m` file contains a function that estimates pi using infinite series (more info about Euler's pi and the [Basel problem](https://en.wikipedia.org/wiki/Basel_problem)) and while loop.
   It takes `tol` as an argument, then calculates the estimation of pi by summating the series with a
-  while loop, and returns `pi_est` value.
+  while loop, and returns `pi_est` (estimation of pi) and `n` (total number of iterations of while loop).
 - `main2.m` is the main script calling `compute_while.m` file. 
 
 ### How to run
@@ -39,7 +39,7 @@ For problem 2 and 3, checkout the most recent commit and run on matlab editor.
 $ git checkout main
 $ matlab
 ```
-Run `main2.m` file for problem 2. 
+Run `main2.m` file for problem 2.  
 Run `main3.m` file for problem 3.
 
 ### Author
